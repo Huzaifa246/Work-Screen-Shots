@@ -1,0 +1,10 @@
+.card {
+  --hover-bg: linear-gradient(144deg,#8608b4, #492fed 60%,#bd6fda);
+  --hover-text: #ffff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card:hover {
+  background: var(--hover-bg);
+  color: var(--hover-text);
+}
